@@ -1,6 +1,7 @@
 import "./App.css";
+import Hero from "./Components/Hero";
 // import FRParentInput from "./Components/FRParentInput";
-import PortalDemo from "./Components/PortalDemo";
+// import PortalDemo from "./Components/PortalDemo";
 // import FocusInput from './Components/FocusInput';
 // import RefsDemo from './Components/RefsDemo';
 // import ParentComponent from './Components/ParentComponent';
@@ -21,7 +22,11 @@ function App() {
 
       {/* <FRParentInput /> */}
 
-      <PortalDemo />
+      {/* <PortalDemo /> */}
+
+      <Hero heroName="Batman"/>
+      <Hero heroName="Superman"/>
+      {/* <Hero heroName="Joker"/> */}
     </div>
   );
 }
