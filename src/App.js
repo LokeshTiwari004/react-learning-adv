@@ -1,5 +1,6 @@
 import "./App.css";
 import ClickCounter from "./Components/ClickCounter";
+import HoverCounter from "./Components/HoverCounter";
 // import ErrorBoundary from "./Components/ErrorBoundary";
 // import Hero from "./Components/Hero";
 // import FRParentInput from "./Components/FRParentInput";
@@ -34,6 +35,7 @@ function App() {
       </ErrorBoundary> */}
 
       <ClickCounter />
+      <HoverCounter />
     </div>
   );
 }
