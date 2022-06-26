@@ -1,5 +1,5 @@
 import "./App.css";
-import ComponentA from "./Components/ComponentA"
+import ComponentA from "./Components/ComponentA";
 // import Counter from "./Components/Counter";
 // import ClickCounterTwo from "./Components/ClickCounterTwo";
 // import HoverCounterTwo from "./Components/HoverCounterTwo";
@@ -56,7 +56,7 @@ function App() {
         )}
       </Counter> */}
 
-      <ComponentA/>
+      <ComponentA />
     </div>
   );
 }

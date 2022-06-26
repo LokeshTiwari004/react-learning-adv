@@ -5,8 +5,8 @@ function ComponentC() {
   return (
     <UserConsumer>
       {
-        (value) => {
-          return <h1>Hello {value}</h1>
+        (user) => {
+          return <h1>Hello {user}</h1>
         }
       }
     </UserConsumer>

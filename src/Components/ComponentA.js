@@ -1,12 +1,17 @@
-import React from 'react'
-import ComponentB from './ComponentB'
+import React, { Component } from "react";
+import { UserProvider } from "./userContext";
+import ComponentB from "./ComponentB";
 
-function ComponentA() {
-  return (
-    <div>
-      <ComponentB />
-    </div>
-  )
+class ComponentA extends Component {
+  render() {
+    return (
+      <div>
+        <UserProvider value="Lokesh">
+          <ComponentB />
+        </UserProvider>
+      </div>
+    );
+  }
 }
 
-export default ComponentA
+export default ComponentA;
