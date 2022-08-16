@@ -1,5 +1,5 @@
-import React from 'react'
-import { UserConsumer } from './userContext'
+import React from "react";
+import { UserConsumer } from "./userContext";
 
 function ComponentC() {
   return (
@@ -10,7 +10,7 @@ function ComponentC() {
         }
       }
     </UserConsumer>
-  )
+  );
 }
 
-export default ComponentC
+export default ComponentC;
